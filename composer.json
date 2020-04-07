@@ -20,7 +20,8 @@
             "Cybersai\\UssdState\\Tests\\": "tests/"
         }
     },
-    "require": {},
+    "require": {
+    },
     "require-dev": {
         "phpunit/phpunit": "^8.5"
     }
