@@ -7,10 +7,10 @@ use Cybersai\UssdStore\UssdStore;
 abstract class UssdState
 {
     const START = 1;
-    const CONTINUING = 2;
+    const CONTINUE = 2;
     const END = 3;
 
-    protected $type = self::CONTINUING;
+    protected $type = self::CONTINUE;
 
     /**
      * The menu to be displayed to users
